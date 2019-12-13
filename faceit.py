@@ -325,12 +325,15 @@ class FaceSwapInterface:
 
 if __name__ == '__main__':
     faceit = FaceIt('fallon_to_oliver', 'fallon', 'oliver')
-    faceit.add_video('oliver', 'oliver_trumpcard.mp4', 'https://www.youtube.com/watch?v=JlxQ3IUWT0I')
-    faceit.add_video('oliver', 'oliver_taxreform.mp4', 'https://www.youtube.com/watch?v=g23w7WPSaU8')
-    faceit.add_video('oliver', 'oliver_zazu.mp4', 'https://www.youtube.com/watch?v=Y0IUPwXSQqg')
-    faceit.add_video('oliver', 'oliver_pastor.mp4', 'https://www.youtube.com/watch?v=mUndxpbufkg')
+    
+    faceit.add_video('oliver', 'oliver_santacon.mp4', 'https://www.youtube.com/watch?v=_TfCgeYHiBE')
+    faceit.add_video('oliver', 'oliver_slappsuits.mp4', 'https://www.youtube.com/watch?v=UN8bJb8biZU')
+    faceit.add_video('oliver', 'oliver_chijong.mp4', 'https://www.youtube.com/watch?v=xa0oY7LQmtg')
+    faceit.add_video('oliver', 'oliver_tobacco.mp4', 'https://www.youtube.com/watch?v=6UsHHOCH4q8')
     faceit.add_video('oliver', 'oliver_cookie.mp4', 'https://www.youtube.com/watch?v=H916EVndP_A')
     faceit.add_video('oliver', 'oliver_lorelai.mp4', 'https://www.youtube.com/watch?v=G1xP2f1_1Jg')
+    faceit.add_video('oliver', 'oliver_census.mp4', 'https://www.youtube.com/watch?v=1aheRpmurAo')
+    
     faceit.add_video('fallon', 'fallon_mom.mp4', 'https://www.youtube.com/watch?v=gjXrm2Q-te4')
     faceit.add_video('fallon', 'fallon_charlottesville.mp4', 'https://www.youtube.com/watch?v=E9TJsw67OmE')
     faceit.add_video('fallon', 'fallon_dakota.mp4', 'https://www.youtube.com/watch?v=tPtMP_NAMz0')
@@ -338,7 +341,6 @@ if __name__ == '__main__':
     faceit.add_video('fallon', 'fallon_sesamestreet.mp4', 'https://www.youtube.com/watch?v=SHogg7pJI_M')
     faceit.add_video('fallon', 'fallon_emmastone.mp4', 'https://www.youtube.com/watch?v=bLBSoC_2IY8')
     faceit.add_video('fallon', 'fallon_xfinity.mp4', 'https://www.youtube.com/watch?v=7JwBBZRLgkM')
-    faceit.add_video('fallon', 'fallon_bank.mp4', 'https://www.youtube.com/watch?v=q-0hmYHWVgE')
     FaceIt.add_model(faceit)
 
     parser = argparse.ArgumentParser()
